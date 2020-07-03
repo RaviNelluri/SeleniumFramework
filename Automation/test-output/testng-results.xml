@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test_suite" duration-ms="51491" started-at="2020-07-03T16:54:11Z" finished-at="2020-07-03T16:55:02Z">
+    <groups>
+    </groups>
+    <test name="Regression testing" duration-ms="51491" started-at="2020-07-03T16:54:11Z" finished-at="2020-07-03T16:55:02Z">
+      <class name="com.TestCases.OpportunitiesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestCases.OpportunitiesTest@235834f2]" name="setUp" is-config="true" duration-ms="29912" started-at="2020-07-03T16:54:11Z" finished-at="2020-07-03T16:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyOppsCreation(java.lang.reflect.Method)[pri:0, instance:com.TestCases.OpportunitiesTest@235834f2]" name="VerifyOppsCreation" duration-ms="21558" started-at="2020-07-03T16:54:40Z" finished-at="2020-07-03T16:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.TestCases.OpportunitiesTest.VerifyOppsCreation(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOppsCreation -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.TestCases.OpportunitiesTest@235834f2]" name="afterSuite" is-config="true" duration-ms="4" started-at="2020-07-03T16:55:02Z" finished-at="2020-07-03T16:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TestCases.OpportunitiesTest -->
+      <class name="com.TestCases.ContactsTest">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.TestCases.ContactsTest@76505305]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-07-03T16:55:02Z" finished-at="2020-07-03T16:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TestCases.ContactsTest -->
+    </test> <!-- Regression testing -->
+  </suite> <!-- test_suite -->
+</testng-results>
